@@ -5,7 +5,7 @@
 
 .header{
     min-height: 100vh;
-    with: 100%;
+    width: 100%;
     background-image: linear-gradient(rgba(176, 50, 136, 0.7), 
     rgba(199, 175, 191, 0.7)),
      url(images/banner.png);
@@ -106,7 +106,153 @@ nav .fa{
 display: none;
 }
 
+.FoodBoxes {
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.text-box2 h1, .finalnote h3 {
+    color:rgb(1, 6, 6);
+    text-align: center;
+    margin: 0.5cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.s3{
+    margin: 1cm;
+    display: flex;
+    justify-content:center ;
+   
+}
+
+
+.text-box2 p{
+    margin-bottom: 1cm;
+    margin-left: 5cm;
+    margin-right: 5cm;
+    color: darkgrey;
+    text-align: center;
+    line-height: 1.5;
+    font-family:sans-serif
+    
+}
+
+
+.text-box3{
+
+    background-image: url(images/banner2.jpg);
+    background-position: center;
+    margin: 10%;
+    height: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.text-box3 h1{
+    color: rgb(250, 250, 253);
+    text-align: center;
+    margin-bottom: 2cm;
+}
+
+#overlay{
+    background-image: linear-gradient(to right,
+    rgba(0,0,0,1),
+    rgba(0,0,0,0));
+    padding: 10ch;
+    border-radius: 10px;
+}
+    
+
+
+#coffee, #Pastries, #Sandwiches-Salads{
+    background-color: rgb(250, 225, 241);
+    margin: 20px;
+    margin-top: 4%;
+    line-height: 1.5;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#coffee h3, #Pastries h3, #Sandwiches-Salads h3,{
+    margin-top: 7%;
+}
+
+#coffee p, #Pastries p, #Sandwiches-Salads p,.finalnote p{
+    color: rgb(163, 158, 158);
+    margin: 5%;
+    margin-bottom: 10%;
+    
+}
+
+/*Product pictures*/
+.Pic{
+    text-align: center;
+    margin-left: 0.1px;
+    margin-right: 0.1px;
+    
+}
+.Pic span{
+  margin: 2%;
+  
+}
+
+img {
+    border-radius: 25px;
+}
+
+.user-image{
+    border-radius: 60%;
+}
+
+/*Client_comment*/
+
+.client_comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+    
+}
+
+.icons{
+    text-align: center;
+}
+
+aside {
+    width: 30%;
+    padding: 40px;
+    margin-left: 1%;
+    float: left;
+    font-style: italic;
+    background-color: rgb(250, 225, 241);
+    border-radius: 20px;
+  }
+
+aside p{
+    padding: 1vh;
+    text-align: center;
+}
+
+aside img{
+    float: left;
+    padding-right: 2ch;
+}
+
+/*Finalnote*/
+.finalnote p{
+    text-align: center;
+}
+
+
+
+
+
+
 /*----- Responsive Design -------*/ 
+
 @media (max-width: 700px){
     .text-box h1{
         font-size:20px;
