@@ -15,6 +15,18 @@
     position: relative;
 }
 
+/*Hover and border shawdown box effect*/
+#coffee,#Pastries,#Sandwiches-Salads{
+    transform: 0.3s;
+}
+
+#coffee:hover,#Pastries:hover,#Sandwiches-Salads:hover{
+    box-shadow: 0 3px 10px rgb(186, 179, 179);
+
+}
+
+/*Hover and overlay effect*/
+
 
 nav{
     display: flex;
@@ -187,6 +199,10 @@ display: none;
     
 }
 
+/*overlay grey*/
+
+   
+
 /*Product pictures*/
 .Pic{
     text-align: center;
@@ -264,6 +280,7 @@ aside img{
 
     .nav-links{
         position: fixed;
+        display:none;
         background: red;
         height: 100vh;
         width: 200px;
@@ -284,4 +301,22 @@ aside img{
         font-size:22px;
         cursor: pointer;
     }
+
+    .text-box2 p{
+        margin-bottom: 1cm;
+        margin:3ch;
+        color: darkgrey;
+        text-align: center;
+        line-height: 1.5;
+        font-family:sans-serif
+            
+    }
+
+    .FoodBoxes {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 }
