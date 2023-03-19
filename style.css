@@ -24,6 +24,14 @@
     box-shadow: 0 3px 10px rgb(186, 179, 179);
 
 }
+#croissant,#cake,#cookies{
+    transform: 0.3s;
+}
+
+#croissant:hover,#cake:hover,#cookies:hover{
+    box-shadow: 0 3px 10px rgb(32, 65, 156);
+
+}
 
 /*Hover and overlay effect*/
 
